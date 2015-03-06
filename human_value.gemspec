@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = HumanValue::VERSION
   spec.authors       = ["Ben Eddy"]
   spec.email         = ["bae@foraker.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Ruby values fit for human consumption}
+  spec.summary       = %q{HumanValue humanizes Ruby values to strings and supports adding custom humanizations}
+  spec.homepage      = "https://github.com/foraker/human_value"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
